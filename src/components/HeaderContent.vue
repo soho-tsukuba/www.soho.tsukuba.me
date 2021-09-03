@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-jumbotron fluid="true" text-variant="white" class="jumbotron-bg" :style="{ 'background-image': 'url(' + headerImage + ')' }">
+    <b-jumbotron fluid text-variant="white" class="jumbotron-bg" :style="{ 'background-image': 'url(' + headerImage + ')' }">
       <template #header>
         <span class="title-text">マイクラ<span class="sohosai">雙峰祭</span>プロジェクト</span><br />
         <span class="year">2021</span>
