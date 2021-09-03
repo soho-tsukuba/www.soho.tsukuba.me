@@ -9,8 +9,8 @@
 
       <b-collapse id="nav-collapse" class="navbar-collapse justify-content-end" is-nav>
         <b-navbar-nav>
-          <b-nav-item right href="#">About</b-nav-item>
-          <b-nav-item right href="#">参加する</b-nav-item>
+          <b-nav-item right href="#about">About</b-nav-item>
+          <b-nav-item right href="#join">参加する</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -19,16 +19,7 @@
 
 <script>
 export default {
-  name: 'HeaderMenu',
-  data() {
-    return {
-      items: [
-        {title: 'トップ', path: '/'},
-        {title: 'About', path: '#about'},
-        {title: '参加する', path: '#join'}
-      ]
-    }
-  }
+  name: 'HeaderMenu'
 }
 </script>
 
