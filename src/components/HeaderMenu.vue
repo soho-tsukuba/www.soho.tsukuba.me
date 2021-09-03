@@ -1,11 +1,14 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="dark">
-      <b-navbar-brand href="#">
+    <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-navbar-brand class="mx-4" href="#">
         <span class="title-text">マイクラ<span class="sohosai">雙峰祭</span>プロジェクト<span class="year">2021</span></span>
       </b-navbar-brand>
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto">
+
+      <b-collapse id="nav-collapse" class="navbar-collapse justify-content-end" is-nav>
+        <b-navbar-nav>
           <b-nav-item right href="#">About</b-nav-item>
           <b-nav-item right href="#">参加する</b-nav-item>
         </b-navbar-nav>
@@ -31,8 +34,8 @@ export default {
 
 <style scoped>
 .title-text {
-  margin-left: 16px;
   font-family: 'DotGothic16', sans-serif;
+  font-size: 0.8em;
 }
 
 .sohosai {
