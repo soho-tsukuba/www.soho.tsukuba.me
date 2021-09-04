@@ -10,7 +10,7 @@
       </template>
       <hr class="my-4" />
       <p class="description">
-        マイクラ内で筑波大学キャンパスを再現し、雙峰祭気分を楽しもう！
+        マイクラ内で筑波大学キャンパスを再現して、雙峰祭気分を楽しもう！
       </p>
     </b-jumbotron>
   </div>

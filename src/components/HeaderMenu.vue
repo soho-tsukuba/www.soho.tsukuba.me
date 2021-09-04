@@ -9,9 +9,10 @@
 
       <b-collapse id="nav-collapse" class="navbar-collapse justify-content-end" is-nav>
         <b-navbar-nav>
-          <b-nav-item right href="#about">About</b-nav-item>
-          <b-nav-item right href="#platforms">プラットフォーム</b-nav-item>
-          <b-nav-item right href="#join">参加する</b-nav-item>
+          <b-nav-item right to="/#about">About</b-nav-item>
+          <b-nav-item right to="/#platforms">プラットフォーム</b-nav-item>
+          <b-nav-item right to="/#join">参加する</b-nav-item>
+          <b-nav-item roght to="/how_to_play#top">遊び方</b-nav-item>
           <b-nav-item right href="https://twitter.com/micra_sohopjt">Twitter</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -21,8 +22,24 @@
 
 <script>
 export default {
-  name: 'HeaderMenu'
+  name: 'HeaderMenu',
+
+  // https://peccu.hatenablog.com/entry/2017/11/18/000000
+  watch: {
+    '$route': function (n, o) {
+      if (n.hash.match(/^#/)) {
+        document.getElementById(n.hash.replace(/^#/, '')).scrollIntoView()
+      }
+      console.log('new, old', [n.hash, o.hash])
+    }
+  },
+  mounted () {
+    if (this.$route.hash.match(/^#/)) {
+      document.getElementById(this.$route.hash.replace(/^#/, '')).scrollIntoView()
+    }
+  }
 }
+
 </script>
 
 <style scoped>
