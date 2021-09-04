@@ -10,7 +10,9 @@
       <b-collapse id="nav-collapse" class="navbar-collapse justify-content-end" is-nav>
         <b-navbar-nav>
           <b-nav-item right href="#about">About</b-nav-item>
+          <b-nav-item right href="#platforms">プラットフォーム</b-nav-item>
           <b-nav-item right href="#join">参加する</b-nav-item>
+          <b-nav-item right href="https://twitter.com/micra_sohopjt">Twitter</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

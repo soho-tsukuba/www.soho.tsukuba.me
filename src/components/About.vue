@@ -4,13 +4,13 @@
     <b-row>
       <div class="col-lg-1" />
 
-      <div class="col-lg-10">
+      <div class="col-lg-10" id="about">
         <b-row class="my-4 mx-1 px-2 about"
                :style="{ 'background-image': 'url(' + oakTexture + ')' }">
 
-          <div class="col-lg" id="about">
+          <div class="col-lg">
             <h1 class="catch-copy mt-4 mb-4">
-              For all ITF. Minecrafters,<br />
+              All of ITF. Minecrafters,<br />
               <span class="tsukuba-color">Are you ready?</span>
             </h1>
 
@@ -28,7 +28,7 @@
 
         <hr />
 
-        <b-row class="mt-4 mx-1">
+        <b-row class="mt-4 mx-1" id="platforms">
           <div class="col-lg">
             <h3 class="title">Platforms</h3>
             <p>クロスプラットフォームでプレイすることができるため、以下のデバイスから参加することができます。</p>
@@ -42,24 +42,35 @@
               PC<br /><br />
               ※MojangまたはMicrosoftアカウントでログインしている必要があります。
             </p>
-            <img :src="desktopIcon" alt="desktop" class="platform-icon" />
+            <b-row>
+              <div class="col-sm-12">
+                <img :src="desktopIcon" alt="desktop" class="platform-icon" />
+              </div>
+            </b-row>
           </div>
+
           <div class="col-lg-6 mt-4">
             <h5 class="title-text">Minecraft 統合版</h5>
             <p>
               Windows 10 / iOS / Android / Nintendo Switch<br /><br />
-              ※Microsoft XBoxアカウントでログインしている必要があります。
+              ※Microsoft XBoxアカウントでログインしている必要があります。<br />
+              ※Java版に準拠しているため、一部のブロックが使えないなどの問題が起こる場合があります。
             </p>
-
-            <img :src="smartphoneIcon" alt="smartphone" class="platform-icon" />
+            <b-row>
+              <div class="col-sm-12">
+                <img :src="desktopIcon" alt="desktop" class="platform-icon" />
+                <img :src="smartphoneIcon" alt="smartphone" class="platform-icon ml-4" />
+                <img :src="switchIcon" alt="switch" class="platform-icon ml-4" />
+              </div>
+            </b-row>
           </div>
         </b-row>
 
         <hr />
 
-        <b-row class="mt-4 mx-1">
+        <b-row class="mt-4 mx-1" id="join">
           <div class="col-lg">
-            <h3 class="title" id="join">How to Join</h3>
+            <h3 class="title">How to Join</h3>
             <p>以下の情報を入力してください。</p>
             <p class="my-4 addresses">
               IPアドレス：soho.tsukuba.me<br />
@@ -78,6 +89,7 @@
 <script>
 import DesktopIcon from "@/assets/img/desktop-icon.svg"
 import SmartphoneIcon from "@/assets/img/smartphone-icon.svg"
+import SwitchIcon from "@/assets/img/switch-icon.svg"
 import OakTexture from "@/assets/img/oak-texture.png"
 
 export default {
@@ -86,6 +98,7 @@ export default {
     return {
       desktopIcon: DesktopIcon,
       smartphoneIcon: SmartphoneIcon,
+      switchIcon: SwitchIcon,
       oakTexture: OakTexture
     }
   }
