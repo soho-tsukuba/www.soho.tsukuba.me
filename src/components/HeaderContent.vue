@@ -6,7 +6,10 @@
         <span class="year">2021</span>
       </template>
       <template #lead>
-        <span class="description">筑波大学雙峰祭 オンライン企画</span>
+        <span class="description">
+          筑波大学雙峰祭 オンライン企画<br />
+          2021年11月6～7日
+        </span>
       </template>
       <hr class="my-4" />
       <p class="description">
