@@ -16,7 +16,7 @@
 
             <p class="mt-4 mb-5">
               このプロジェクトは、今年度オンラインで開催される雙峰祭での企画です。<br />
-              筑波大学キャンパスをMinecraft内で再現し、雙峰祭当日にみんなでわいわいすることを目的としています。<br />
+              筑波大学キャンパスをMinecraft内で再現して、雙峰祭当日にみんなでわいわいすることを目的としています。<br />
               <br />
               "オンラインのキャンパス"にも足を運んでみませんか？<br />
               <br />
@@ -85,10 +85,18 @@
             </b-row>
           </div>
         </b-row>
+      </div>
+      <div class="col-lg-1" />
+    </b-row>
 
-        <hr />
+    <hr />
 
-        <b-row class="mt-4 mx-1" id="join">
+    <b-row class="how-to-join" id="join">
+      <div class="col-lg-1" />
+
+      <div class="col-lg-10">
+
+        <b-row class="mt-4 mx-1">
           <div class="col">
             <h3 class="title title-join">How to Join</h3>
             <p>以下の情報を入力してください。</p>
@@ -99,21 +107,22 @@
           <div class="col-sm-6 mt-4">
             <h5 class="title-text">Minecraft Java Edition</h5>
             <p>
-              IPアドレス：soho.tsukuba.me<br />
-              ポート：25536
+              IPアドレス：現在非公開<br />
+              ポート：現在非公開
             </p>
           </div>
 
           <div class="col-sm-6 mt-4">
             <h5 class="title-text">Minecraft 統合版</h5>
             <p>
-              IPアドレス：soho.tsukuba.me<br />
-              ポート：19132
+              IPアドレス：現在非公開<br />
+              ポート：現在非公開
+              <!-- <br /><a href="minecraft://connect/soho.tsukuba.me:19132">Minecraft 統合版で開く</a> -->
             </p>
           </div>
         </b-row>
-
       </div>
+
       <div class="col-lg-1" />
     </b-row>
       </b-container>
