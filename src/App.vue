@@ -3,6 +3,7 @@
     <header-menu></header-menu>
     <header-content></header-content>
     <about></about>
+    <footer-content></footer-content>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderMenu from "./components/HeaderMenu";
 import HeaderContent from "./components/HeaderContent";
 import About from "@/components/About";
+import FooterContent from "@/components/FooterContent";
 
 export default {
   name: 'App',
   components: {
     About,
     HeaderContent,
-    HeaderMenu
+    HeaderMenu,
+    FooterContent
   }
 }
 </script>
