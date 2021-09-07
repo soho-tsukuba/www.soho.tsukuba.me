@@ -43,6 +43,8 @@
               <p>
                 マイクラ雙峰祭プロジェクトは、2021年11月6日（土）と7日（日）にオンラインで開催される雙峰祭での企画です。<br />
                 筑波大学キャンパスをMinecraft内で再現して、雙峰祭当日にサーバーを開放します。サーバー内ではキャンパスの制作やイベント等を行う予定です。<br />
+                また、当日は生配信も予定しております！<br />
+
                 <br />
                 現在十数名ほどで運営していますが、当日までにキャンパスのベースとなる建築を行う運営メンバーを募集しております。（Minecraft Java Editionを持っている必要があります）興味がありましたら<a href="https://twitter.com/micra_sohopjt">Twitter</a>のDMまでお声掛けください。<br />
                 また当日の解放前に試験的にサーバーを開放する場合もありますので、その際はぜひご協力をお願いします。
@@ -64,7 +66,7 @@
               <h5 class="title-text">Minecraft Java Edition</h5>
               <p>
                 PC<br /><br />
-                IPアドレス：現在非公開<br />
+                アドレス：現在非公開<br />
                 ポート：現在非公開<br /><br />
                 ※MojangまたはMicrosoftアカウントでログインしている必要があります。<br />
                 ※Java EditionはMinecraft公式サイトからインストールしたものです。
@@ -85,7 +87,7 @@
               <h5 class="title-text">Minecraft 統合版</h5>
               <p>
                 Windows 10 / iOS / Android / Nintendo Switch<br /><br />
-                IPアドレス：現在非公開<br />
+                アドレス：現在非公開<br />
                 ポート：現在非公開<br /><br />
                 ※Microsoft XBoxアカウントでログインしている必要があります。<br />
                 ※Java版に準拠しているため、一部のブロックが使えないなどの問題が起こる場合があります。
@@ -218,6 +220,4 @@ a:visited {
   color: #5E9D34;
 }
 
-.addresses {
-}
 </style>

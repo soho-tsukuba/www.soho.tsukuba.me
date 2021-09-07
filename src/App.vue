@@ -37,16 +37,4 @@ body {
   margin: 0;
 }
 
-a {
-  border-bottom-style: dashed;
-  border-bottom-color: #333333;
-  border-bottom-width: 1px;
-  color: #333333;
-  text-decoration: none;
-}
-
-a:link {
-  color: #333333;
-}
-
 </style>
