@@ -63,7 +63,7 @@
 
           <b-row class="mb-4 mx-1">
             <div class="col-lg-6 mt-4">
-              <h5 class="title-text">Minecraft Java Edition</h5>
+              <h5 class="title-text">Minecraft Java Edition v1.17.1</h5>
               <p>
                 PC<br /><br />
                 アドレス：現在非公開<br />
@@ -84,7 +84,7 @@
             </div>
 
             <div class="col-lg-6 mt-4">
-              <h5 class="title-text">Minecraft 統合版</h5>
+              <h5 class="title-text">Minecraft 統合版 v1.17.11</h5>
               <p>
                 Windows 10 / iOS / Android / Nintendo Switch<br /><br />
                 アドレス：現在非公開<br />
