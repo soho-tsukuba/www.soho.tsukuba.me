@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import HeaderImage from "@/assets/img/header-image.png"
+import HeaderImage from "@/assets/img/header-new.png"
 
 export default {
   name: "Header",
