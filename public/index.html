@@ -10,6 +10,20 @@
     <meta property="og:description" content="【Java版/統合版対応】マイクラ内で筑波大学キャンパスを再現して、雙峰祭気分を楽しもう！">
     <meta property="og:image" content="https://raw.githubusercontent.com/soho-tsukuba/www.soho.tsukuba.me/master/twitter-card.png">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+        (function (l) {
+            if (l.search) {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) {
+                    var a = v.split('=');
+                    q[a[0]] = a[1];
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || ''));
+                }
+            }
+        }(window.location))
+    </script>
 </head>
 <body>
 <noscript>
