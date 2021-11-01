@@ -10,10 +10,9 @@
       <b-collapse id="nav-collapse" class="navbar-collapse justify-content-end" is-nav>
         <b-navbar-nav>
           <b-nav-item right to="/#about">About</b-nav-item>
-          <b-nav-item right to="/#join">参加方法</b-nav-item>
           <b-nav-item right to="/how_to_play#top">遊び方</b-nav-item>
           <b-nav-item right to="/how_to_play#attention">注意事項</b-nav-item>
-          <b-nav-item right to="/donation#donation">寄付について</b-nav-item>
+          <b-nav-item right href="#">YouTube Live</b-nav-item>
           <b-nav-item right href="https://twitter.com/micra_sohopjt">Twitter</b-nav-item>
         </b-navbar-nav>
       </b-collapse>

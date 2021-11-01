@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <div class="col">
-          <b-row class="mb-4 px-2 about"
+          <b-row class="mb-3 px-2 about"
                  :style="{ 'background-image': 'url(' + oakTexture + ')' }">
 
             <div class="col-lg-1" />
@@ -37,74 +37,28 @@
         <div class="col-lg-1" />
 
         <div class="col-lg-10">
-          <b-row class="mt-3 mx-1" id="about">
+          <b-row class="mx-1 mb-4" id="about">
             <div class="col-lg">
-              <h3 class="title title-about">About</h3>
+              <h3 class="title title-about mt-3">About</h3>
               <p>
-                マイクラ雙峰祭プロジェクトは、2021年11月6日（土）と7日（日）にオンラインで開催される雙峰祭での企画です。<br />
-                筑波大学キャンパスをMinecraft内で再現して、雙峰祭当日にサーバーを開放します。サーバー内ではキャンパスの制作やイベント等を行う予定です。<br />
-                また、当日は生配信も予定しております！<br />
-
-                <br />
-                現在十数名ほどで運営していますが、当日までにキャンパスのベースとなる建築を行う運営メンバーを募集しております。（Minecraft Java Editionを持っている必要があります）興味がありましたら<a href="https://twitter.com/micra_sohopjt">Twitter</a>のDMまでお声掛けください。<br />
-                また当日の解放前に試験的にサーバーを開放する場合もありますので、その際はぜひご協力をお願いします。
+                マイクラ雙峰祭プロジェクトは、<b>2021年11月6日（土）と7日（日）の15:30~16:15</b>にオンラインで開催される雙峰祭での企画です。<br />
+                筑波大学キャンパスをMinecraft内で再現して、<b>雙峰祭当日に生配信</b>にてその様子をお届けします！<br /><br />
+                <b>※都合により一般の方の雙峰祭中のサーバー参加はできなくなってしまいました。</b><br />
+                楽しみにされていた方には申し訳ありませんが、ご理解していただけると幸いです。<br /><br />
+                なお<b>雙峰祭の終了後、一般向けにサーバーを開放</b>しますので、キャンパス建築にもぜひご参加ください！<br />
               </p>
+              <div class="text-center mb-4">
+                <p>
+                  <a href="" class="btn btn--orange btn-c">YouTube Liveに参加</a>
+                  <br />
+                </p>
+              </div>
             </div>
-          </b-row>
-
-          <hr />
-
-          <b-row class="mt-3 mx-1" id="join">
-            <div class="col-lg">
-              <h3 class="title title-join">How to Join</h3>
-              <p>クロスプラットフォームでプレイすることができるため、以下のデバイスから参加することができます。</p>
-            </div>
-          </b-row>
-
-          <b-row class="mb-4 mx-1">
-            <div class="col-lg-6 mt-4">
-              <h5 class="title-text">Minecraft Java Edition v1.17.1</h5>
-              <p>
-                PC<br /><br />
-                アドレス：現在非公開<br />
-                ポート：現在非公開<br /><br />
-                ※MojangまたはMicrosoftアカウントでログインしている必要があります。<br />
-                ※Java EditionはMinecraft公式サイトからインストールしたものです。
-              </p>
-              <b-row>
-                <div class="col text-center">
-                  <img :src="desktopIcon" alt="desktop" class="platform-icon" />
-                </div>
-              </b-row>
-              <b-row>
-                <div class="col text-center">
-                  <img :src="minecraftLogo" alt="minecraft" class="minecraft-logo" onclick="window.location='https://www.minecraft.net/ja-jp/store/minecraft-java-edition'" />
-                </div>
-              </b-row>
-            </div>
-
-            <div class="col-lg-6 mt-4">
-              <h5 class="title-text">Minecraft 統合版 v1.17.11</h5>
-              <p>
-                Windows 10 / iOS / Android / Nintendo Switch<br /><br />
-                アドレス：現在非公開<br />
-                ポート：現在非公開<br /><br />
-                ※Microsoft XBoxアカウントでログインしている必要があります。<br />
-                ※Java版に準拠しているため、一部のブロックが使えないなどの問題が起こる場合があります。
-              </p>
-              <b-row>
-                <div class="col text-center">
-                  <img :src="desktopIcon" alt="desktop" class="platform-icon" />
-                  <img :src="smartphoneIcon" alt="smartphone" class="platform-icon mx-4" />
-                  <img :src="switchIcon" alt="switch" class="platform-icon" />
-                </div>
-              </b-row>
-              <b-row>
-                <div class="col text-center mt-4">
-                  <img :src="appStore" alt="desktop" class="app-store" onclick="window.location='https://apps.apple.com/jp/app/minecraft/id479516143'" />
-                  <img :src="googlePlay" alt="desktop" class="google-play" onclick="window.location='https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=ja&gl=US'" />
-                </div>
-              </b-row>
+            <div class="youtube">
+              <iframe width="560" height="315"
+                      src="https://www.youtube.com/embed/0OcRTXVHzHY"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
             </div>
           </b-row>
         </div>
@@ -219,5 +173,43 @@ a:visited {
 .title-join:first-letter {
   color: #5E9D34;
 }
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 0 auto;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*その他主な共通部分は省略*/
+
+a.btn--orange {
+  color: #fff;
+  background-color: #c4302b;
+}
+
+a.btn--orange:hover {
+  color: #fff;
+  background: #D64946;
+}
+
+a.btn-c {
+  font-size: 1.5rem;
+  position: relative;
+  padding: 1.0rem 3rem 1.0rem 3rem;
+}
+
+a.btn-c i.fa {
+  margin-right: 1rem;
+}
+
 
 </style>

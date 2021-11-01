@@ -8,12 +8,12 @@
       <template #lead>
         <span class="description">
           筑波大学雙峰祭 オンライン企画<br />
-          2021年11月6～7日
+          2021年11月6～7日 / 15:30~16:15
         </span>
       </template>
       <hr class="my-4" />
       <p class="description">
-        マイクラ内で筑波大学キャンパスを再現して、雙峰祭気分を楽しもう！
+        筑波大学 Minecraftキャンパスの様子をお届け！
       </p>
     </b-jumbotron>
   </div>
