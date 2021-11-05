@@ -17,11 +17,12 @@
         </p>
 
         <b-container>
-          <b-row class="mt-3 mb-5">
-            <div class="col-lg-6">
+          <b-row class="mt-3 mb-4">
+            <div class="col-lg-6 mb-3">
               <a href="https://www.youtube.com/watch?v=ibn_eg8lNro" class="btn btn--orange btn-c">YouTube Live（11/6）に参加</a>
+              <br />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-3">
               <a href="https://www.youtube.com/watch?v=kZnndJl7k7g" class="btn btn--orange btn-c">YouTube Live（11/7）に参加</a>
             </div>
           </b-row>
