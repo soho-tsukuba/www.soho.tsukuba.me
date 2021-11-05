@@ -47,12 +47,18 @@
                 楽しみにされていた方には申し訳ありませんが、ご理解していただけると幸いです。<br /><br />
                 なお<b>雙峰祭の終了後、一般向けにサーバーを開放</b>しますので、キャンパス建築にもぜひご参加ください！<br />
               </p>
-              <div class="text-center mb-4">
-                <p>
-                  <a href="" class="btn btn--orange btn-c">YouTube Liveに参加</a>
-                  <br />
-                </p>
-              </div>
+
+              <b-container>
+                <b-row class="mt-3 mb-5">
+                  <div class="col-lg-6">
+                    <a href="https://www.youtube.com/watch?v=ibn_eg8lNro" class="btn btn--orange btn-c">YouTube Live（11/6）に参加</a>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="https://www.youtube.com/watch?v=kZnndJl7k7g" class="btn btn--orange btn-c">YouTube Live（11/7）に参加</a>
+                  </div>
+                </b-row>
+              </b-container>
+
             </div>
             <div class="youtube">
               <iframe width="560" height="315"
@@ -189,8 +195,6 @@ a:visited {
   height: 100%;
 }
 
-/*その他主な共通部分は省略*/
-
 a.btn--orange {
   color: #fff;
   background-color: #c4302b;
@@ -210,6 +214,5 @@ a.btn-c {
 a.btn-c i.fa {
   margin-right: 1rem;
 }
-
 
 </style>

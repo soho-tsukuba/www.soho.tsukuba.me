@@ -16,6 +16,17 @@
           配信では、サーバー内の様子やミニゲームの様子をお届けする予定です。ぜひご参加ください！<br /><br />
         </p>
 
+        <b-container>
+          <b-row class="mt-3 mb-5">
+            <div class="col-lg-6">
+              <a href="https://www.youtube.com/watch?v=ibn_eg8lNro" class="btn btn--orange btn-c">YouTube Live（11/6）に参加</a>
+            </div>
+            <div class="col-lg-6">
+              <a href="https://www.youtube.com/watch?v=kZnndJl7k7g" class="btn btn--orange btn-c">YouTube Live（11/7）に参加</a>
+            </div>
+          </b-row>
+        </b-container>
+
         <h4 class="title-attention mt-4">雙峰祭後の楽しみ方（予定）</h4>
         <p>
           <b>雙峰祭後、改めて一般ユーザー向けにサーバーを開放</b>し、キャンパス建築を楽しんでもらおうと考えています。<br />
@@ -73,6 +84,26 @@ export default {
 
   .title-attention:first-letter {
     color: #e53935;
+  }
+
+  a.btn--orange {
+    color: #fff;
+    background-color: #c4302b;
+  }
+
+  a.btn--orange:hover {
+    color: #fff;
+    background: #D64946;
+  }
+
+  a.btn-c {
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1.0rem 3rem 1.0rem 3rem;
+  }
+
+  a.btn-c i.fa {
+    margin-right: 1rem;
   }
 
 </style>
