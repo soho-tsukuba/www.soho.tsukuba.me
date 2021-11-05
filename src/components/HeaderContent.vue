@@ -43,7 +43,7 @@ export default {
 }
 
 .year {
-  color: #00c0d4;
+  color: #ffee58;
   font-family: 'DotGothic16', sans-serif;
 }
 
